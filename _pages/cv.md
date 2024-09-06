@@ -11,54 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. major in Computer Science (IEEE pilot class) , Shanghai Jiao Tong University, 2025 (expected)
+ * Rank ** 1 **/127, with 29 courses getting A+ and 20 courses getting A out of the 58 courses 
+ 
+Research Experience
+=====
+<!-- Under Maintenance... -->
++ **Machine Vision and Intelligent Group** ([MVIG](https://www.mvig.org)), Shanghai Jiao Tong University
+  + *Undergraduate Research Intern*, Advisor: Prof. [Lixin Yang](https://lixiny.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
++ **Machine Vision and Intelligent Group** ([MVIG](https://www.mvig.org)), Shanghai Jiao Tong University
+  + *Undergraduate Research Intern*, Advisor: Prof. [Yong-Lu Li](https://dirtyharrylyl.github.io/) and Prof. [Cewu Lu](https://www.mvig.org/)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **National Scholarship** (Top 0.2% nationwide), Ministry of Education of the People's Republic of China, 2022 , 2023
+* **A class Merit Scholarship** (Top 1%), SJTU, 2023
+* **Merit Student** (Top 5%), SJTU, 2022, 2023
+* **B class Merit Scholarship** (Top 10%), SJTU, 2022
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Last Updated on September 6, 2024
