@@ -26,7 +26,7 @@ Research Experience
 
 Awards
 ======
-* **National Scholarship** (Top 0.2% nationwide), Ministry of Education of the People's Republic of China, 2022 , 2023
+* **National Scholarship** (Top 0.2% nationwide), Ministry of Education of the People's Republic of China, ** 2022 , 2023，2024 **
 * **A class Merit Scholarship** (Top 1%), SJTU, 2023
 * **Merit Student** (Top 5%), SJTU, 2022, 2023
 * **B class Merit Scholarship** (Top 10%), SJTU, 2022
