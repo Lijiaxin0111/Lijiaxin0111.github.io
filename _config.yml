@@ -8,31 +8,31 @@
 
 # Basic Site Settings
 locale                   : "SJTU"
-title                    : "Jiaxin Li's Homepage"
+title                    : "Jiaxin Li"
 title_separator          : "-"
 name                     : &name "Jiaxin Li"
-description              : &description "personal description"
+description              : &description "Computer Science undergraduate at Shanghai Jiao Tong University"
 url                      : https://Lijiaxin0111.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Lijiaxin0111.github.io"
+repository               : "Lijiaxin0111/Lijiaxin0111.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "panda.png"
+  avatar           : "profile.png"
   name             : "Jiaxin Li"
-  pronouns         : "he/his"  
-  bio              : "Undergraduate Student major in Computer Science"
+  pronouns         :
+  bio              : "Shanghai Jiao Tong University"
   location         : "Shanghai, China"
-  employer         : "Shanghai Jiao Tong University"
+  employer         :
   uri              : # URL
   email            : "li_jiaxin@sjtu.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=BZBDXocAAAAJ&hl=en&oi=sra"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -72,6 +72,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # URL
+  resume           : "/cv/"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

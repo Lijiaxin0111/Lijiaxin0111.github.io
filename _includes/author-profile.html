@@ -4,7 +4,7 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div itemscope itemtype="http://schema.org/Person">
+<div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
@@ -21,7 +21,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">Contact</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
@@ -152,7 +152,24 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}
+      {% if author.resume %}
+        <li><a href="{{ author.resume }}"><i class="ai ai-cv ai-fw icon-pad-right"></i>CV</a></li>
+      {% endif %}
     </ul>
+    <div class="author__urls_sm">
+      {% if author.email %}
+        <a href="mailto:{{ author.email }}" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.github %}
+        <a href="https://github.com/{{ author.github }}" aria-label="Github"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.googlescholar %}
+        <a href="{{ author.googlescholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.resume %}
+        <a href="{{ author.resume }}" aria-label="CV"><i class="ai ai-cv ai-fw" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
   </div>
 </div>
